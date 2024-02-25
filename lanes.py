@@ -108,33 +108,5 @@ while(cap.isOpened()):
         break
 
 cap.release()
-cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
-
-
-
-#----------------------THEORY---------------------#
-
-# CANNY EDGE DETECTION
-# --> convert image to grayscale/intensity matrix
-# -->reduce noise/smoothen image with Gaussian blur
-#    - ie. averaging each pixel to the weighted average of its surrounding pixels which is done by overlaying a kernel 
-#      matrix and multiplying with the image many times, whifting over each pixel every time)
-# --> check for large differences in intesity and mark as an edge
-#     - compute derivative on Gaussian blurred image; the large changes have a larger slope/derivative, and are marked as edges
-
-# HOUGH TRANSFORMS: detecting lane lines
-# --> Hough space: goes from y=mx+b(R) to (m, b)
-# --> Convert set of points to Hough Space: the intersection of many lines in the hough space indicates a (m, b) common among many 
-#     points indicates a line y=mx+b that goes through a set of points
-# --> to account for vertical lines (w/infinite slope), we will use polar coords p = xcos(theta) + ysin(theta) to do the same thing 
-#     (but now the Hough space has sinusoidal curves of all possible lines that can pass though the given point instead of lines, and we look for the intersection of all the curves)
-# --> We can check the intersection of the curves/lines by overlaying a matrix and checking with box has the most 'votes' (AKA where the most lines appear) 
+cv2.destroyAllWindows() 
 
