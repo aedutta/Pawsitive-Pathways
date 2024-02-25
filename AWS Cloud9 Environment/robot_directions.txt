@@ -1,0 +1,7 @@
+Head east 6864.0 ft
+Turn right 348 ft
+Continue straight 1584.0 ft
+Turn left 3168.0 ft
+Turn right 302 ft
+Turn left 230 ft
+Turn left 200 ft
