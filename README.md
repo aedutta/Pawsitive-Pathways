@@ -1,4 +1,4 @@
-# Hack Illinois 2024 Hardware Hack 
+# HackIllinois 2024 Hardware Hack 
 In 36 hours, we created Pawsitive Pathways: an autonomous robot dog that helps handicapped people get from point A to B.
 <div align="center">
     <img src="https://cdn.discordapp.com/attachments/821034983811448887/1211292780878626876/IMG_1079.jpg?ex=65edab4f&is=65db364f&hm=e08194c72284f8486d5ff1b0422a9a3d67b89b403517d405253c427926ab4c3e" alt="Image Description" width="30%" height="auto">
